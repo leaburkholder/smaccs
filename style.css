@@ -1,5 +1,42 @@
 /*Base styles*/
+body {
+    background-color: white;
+    font-family: sans-serif;
+}
+
+input {
+    font-family: sans-serif;
+}
  
 /*Layout styles*/
- 
+.container {
+    margin: 0 auto;
+    padding: 0 30px;
+    max-width: 1200px;
+} 
+.section {
+    margin-bottom: 90px
+}
+
 /*Block styles*/
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar__list {
+    list-style: none;
+    display: flex;
+}
+.navbar__link {
+    font-size: 18px;
+    color: blue;
+    text-decoration: underline;
+    padding: 10px 30px;
+}
+.navbar__link--callout {
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+}
+
